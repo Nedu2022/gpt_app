@@ -61,7 +61,8 @@
   cursor: pointer;
 }
 
-.gpt___whatgpt3-container {
+
+.gpt__whatgpt3-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -69,9 +70,8 @@
 }
 
 
-
 /* Customizing feature component as per needs */
-.gpt__whatgpt3-container .gpt3__features-container__feature {
+.gpt__whatgpt3-container .gpt__features-container__feature {
   flex: 1;
   margin: 1rem;
   min-width: 210px;
@@ -80,7 +80,7 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt__whatgpt3-container .gpt3__features-container_feature-text {
+.gpt__whatgpt3-container .gpt__features-container_feature-text {
   margin-top: 0.5rem;
 }
 
@@ -98,12 +98,12 @@
 
 @media screen and (max-width: 650px) {
   /* Customizing feature component as per needs */
-  .gpt__whatgpt3-feature .gpt3__features-container__feature {
+  .gpt__whatgpt3-feature .gpt__features-container__feature {
       flex-direction: column;
   }
 
   /* Customizing feature component as per needs */
-  .gpt__whatgpt3-feature .gpt3__features-container_feature-text {
+  .gpt__whatgpt3-feature .gpt__features-container_feature-text {
       margin-top: 0.5rem;
   }
 
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 350px) {
   /* Customizing feature component as per needs */
-  .gpt__whatgpt3-container .gpt3__features-container__feature {
+  .gpt__whatgpt3-container .gpt__features-container__feature {
       margin: 1rem 0;
       min-width: 100%;
   }
